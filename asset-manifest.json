@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Keypoint/static/css/main.b63a37b3.css",
+    "main.js": "/Keypoint/static/js/main.e5d9dfab.js",
+    "static/js/453.a3c1d153.chunk.js": "/Keypoint/static/js/453.a3c1d153.chunk.js",
+    "index.html": "/Keypoint/index.html",
+    "main.b63a37b3.css.map": "/Keypoint/static/css/main.b63a37b3.css.map",
+    "main.e5d9dfab.js.map": "/Keypoint/static/js/main.e5d9dfab.js.map",
+    "453.a3c1d153.chunk.js.map": "/Keypoint/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63a37b3.css",
+    "static/js/main.e5d9dfab.js"
+  ]
+}
