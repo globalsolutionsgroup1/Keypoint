@@ -1,9 +1,16 @@
 {
+  "homepage": "https://globalsolutionsgroup1.github.io/Keypoint",
   "name": "keypoint-recruitment",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "deploy": "cd client && npm run build && gh-pages -d build"
   },
   "keywords": [],
   "author": "",
